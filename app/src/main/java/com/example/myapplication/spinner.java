@@ -24,7 +24,6 @@ public class spinner extends AppCompatActivity implements AdapterView.OnItemSele
             spinner.setAdapter(adapter);
 
             spinner.setOnItemSelectedListener(this);
-
         }
 
     @Override
