@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="brands">
+        <item>Apple</item>
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+    </string-array>
+    <string-array name="apps_name">
+        <item>Java</item>
+        <item>PHP</item>
+        <item>LINUX</item>
+        <item>CCC</item>
+        <item>PYTHON</item>
+        <item>SNAKE</item>
+        <item>ORACLE</item>
+        <item>LARVA</item>
+        <item>REACT</item>
+        <item>SCRIPT</item>
+        <item>MOVIE</item>
+        <item>TREE</item>
+        <item>ROOT</item>
+        <item>MANGO</item>
+        <item>REEL</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string-array name="locations">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>London</item>
+        <item>USA</item>
+        <item>United Kingdom</item>
+    </string-array>
+</resources>

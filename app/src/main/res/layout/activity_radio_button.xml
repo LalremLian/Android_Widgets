@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".radio_button">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Radio Button"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+    <RadioButton
+        android:id="@+id/radiobttn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="RadioButton 1"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </RadioButton>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Multi Radio Button"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/RadioG"
+        android:layout_below="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioG"
+        android:layout_marginTop="20sp"
+        android:text="Show"
+        android:textSize="20sp"
+        android:textStyle="bold">
+    </Button>
+</RelativeLayout>

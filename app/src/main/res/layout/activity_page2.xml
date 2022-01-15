@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2">
+
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 2 - Vertical scroll view"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center">
+    </TextView>
+
+    <ScrollView
+        android:layout_marginTop="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/ratingbtn"
+                android:layout_below="@+id/t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating Bar"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/webBTN"
+                android:layout_below="@+id/ratingbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web view"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/seekbarBTN"
+                android:layout_below="@+id/webBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seek bar"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/datepckrBTN"
+                android:layout_below="@+id/seekbarBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date Picker"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/timepickrBTN"
+                android:layout_below="@+id/datepckrBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time Picker"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/progressBTN"
+                android:layout_below="@+id/timepickrBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progress bar"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/verticalscrollBTN"
+                android:layout_below="@+id/progressBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vertical Scroll view"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/horizotalscrollBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horizontal Scroll view"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/imageswitcherBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Switcher"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/viewstubBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ViewStub"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/srchViewBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search View"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/EditTXTBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EditTXT using TXT watcher"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/tablayoutTBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab Layout using fragment"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/optionMenuBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option Menu"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+            <Button
+                android:id="@+id/SharedPrefBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SharedPreferences"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp">
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
