@@ -11,7 +11,7 @@ public class Page2 extends AppCompatActivity {
 
     //Variables....
     Button button,button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,
-    button13,button14;
+    button13,button14,button15;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,15 @@ public class Page2 extends AppCompatActivity {
         button12 = findViewById(R.id.tablayoutTBTN);
         button13 = findViewById(R.id.optionMenuBTN);
         button14 = findViewById(R.id.SharedPrefBTN);
+        button15 = findViewById(R.id.dialogBTN);
 
+        button15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Page2.this,DialogProgressActivity.class);
+                startActivity(intent);
+            }
+        });
         button14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

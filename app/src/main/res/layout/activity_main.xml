@@ -90,5 +90,15 @@
         android:layout_marginLeft="120dp"
         android:layout_below="@+id/recyclebt">
     </Button>
+    <Button
+        android:id="@+id/dBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/recyclebt">
+    </Button>
 
 </RelativeLayout>
