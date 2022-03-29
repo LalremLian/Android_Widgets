@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.myapplication.R;
+
 import java.util.Locale;
 
-public class TimePicker extends AppCompatActivity {
+public class TimePickerActivity extends AppCompatActivity {
 
     Button timeButton;
     int hour, minute;

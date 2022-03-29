@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -6,7 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-public class RecycleView extends AppCompatActivity {
+import com.example.myapplication.ListView.adapter.MyListAdapter;
+import com.example.myapplication.ListView.model.MyListData;
+import com.example.myapplication.R;
+
+public class RecycleViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

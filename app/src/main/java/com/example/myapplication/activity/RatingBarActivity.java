@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class RatingBar extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class RatingBarActivity extends AppCompatActivity {
 
     //Variables.........
     Button button;

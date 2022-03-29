@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-public class radio_button extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class RadioButtonActivity extends AppCompatActivity {
 
     //Variables
     Button button;
@@ -37,9 +39,9 @@ public class radio_button extends AppCompatActivity {
         int selectedId = RG.getCheckedRadioButtonId();
         RB = (RadioButton) findViewById(selectedId);
         if (selectedId == -1) {
-            Toast.makeText(radio_button.this, "Nothing selected", Toast.LENGTH_SHORT).show();
+            Toast.makeText(RadioButtonActivity.this, "Nothing selected", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(radio_button.this, RB.getText(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(RadioButtonActivity.this, RB.getText(), Toast.LENGTH_SHORT).show();
         }
     }
     }

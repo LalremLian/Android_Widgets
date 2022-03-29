@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.myapplication.R;
+
 import java.util.ArrayList;
 
-public class SearchView extends AppCompatActivity {
+public class SearchViewActivity extends AppCompatActivity {
 
     //Variables...
     //androidx.appcompat.widget.SearchView searchView;
@@ -50,7 +52,7 @@ public class SearchView extends AppCompatActivity {
                 if(list.contains(query)){
                     adapter.getFilter().filter(query);
                 }else{
-                    Toast.makeText(SearchView.this, "No Match found",Toast.LENGTH_LONG).show();
+                    Toast.makeText(SearchViewActivity.this, "No Match found",Toast.LENGTH_LONG).show();
                 }
                 return false;
             }

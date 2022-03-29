@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.ListView.model;
 
 
 public class MyListData {

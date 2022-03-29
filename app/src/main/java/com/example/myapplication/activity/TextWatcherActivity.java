@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,15 +10,17 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class TextWacher extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class TextWatcherActivity extends AppCompatActivity {
 
     //Variables..
     ListView lv;
     EditText editText;
     ArrayAdapter<String> adapter;
 
-    String products[] = {"Apple", "Banana","Pineapple", "Orange", "Papaya", "Melon",
-            "Grapes", "Water Melon","Lychee", "Guava", "Mango", "Kiwi"};
+    String products[] = {"Apple", "Banana", "Pineapple", "Orange", "Papaya", "Melon",
+            "Grapes", "Water Melon", "Lychee", "Guava", "Mango", "Kiwi"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +41,12 @@ public class TextWacher extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                Toast.makeText(getApplicationContext(),"before text change",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "before text change", Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                Toast.makeText(getApplicationContext(),"after text change",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "after text change", Toast.LENGTH_LONG).show();
             }
         });
     }

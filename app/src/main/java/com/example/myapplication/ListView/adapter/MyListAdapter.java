@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.ListView.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.myapplication.ListView.model.MyListData;
+import com.example.myapplication.R;
 
 import androidx.recyclerview.widget.RecyclerView;
 

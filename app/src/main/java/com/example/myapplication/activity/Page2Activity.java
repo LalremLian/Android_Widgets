@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Page2 extends AppCompatActivity {
+import com.example.myapplication.R;
+import com.example.myapplication.TabLayout.TabLayoutActivity;
+
+public class Page2Activity extends AppCompatActivity {
 
     //Variables....
     Button button,button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,
@@ -39,14 +42,14 @@ public class Page2 extends AppCompatActivity {
         button15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,DialogProgressActivity.class);
+                Intent intent = new Intent(Page2Activity.this, DialogProgressActivity.class);
                 startActivity(intent);
             }
         });
         button14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,SharedPrefActivity.class);
+                Intent intent = new Intent(Page2Activity.this, SharedPrefActivity.class);
                 startActivity(intent);
             }
         });
@@ -59,91 +62,91 @@ public class Page2 extends AppCompatActivity {
         button12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,TabLayout.class);
+                Intent intent = new Intent(Page2Activity.this, TabLayoutActivity.class);
                 startActivity(intent);
             }
         });
         button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,TextWacher.class);
+                Intent intent = new Intent(Page2Activity.this, TextWatcherActivity.class);
                 startActivity(intent);
             }
         });
         button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,SearchView.class);
+                Intent intent = new Intent(Page2Activity.this, SearchViewActivity.class);
                 startActivity(intent);
             }
         });
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,ViewStub.class);
+                Intent intent = new Intent(Page2Activity.this, ViewStubActivity.class);
                 startActivity(intent);
             }
         });
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,ImageSwitcher.class);
+                Intent intent = new Intent(Page2Activity.this, ImageSwitcherActivity.class);
                 startActivity(intent);
             }
         });
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,HorizontalScrollView.class);
+                Intent intent = new Intent(Page2Activity.this, HorizontalScrollViewActivity.class);
                 startActivity(intent);
             }
         });
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,VerticalScrollView.class);
+                Intent intent = new Intent(Page2Activity.this, VerticalScrollViewActivity.class);
                 startActivity(intent);
             }
         });
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,ProgressBar.class);
+                Intent intent = new Intent(Page2Activity.this, ProgressBarActivity.class);
                 startActivity(intent);
             }
         });
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,TimePicker.class);
+                Intent intent = new Intent(Page2Activity.this, TimePickerActivity.class);
                 startActivity(intent);
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,DatePicker.class);
+                Intent intent = new Intent(Page2Activity.this, DatePickerActivity.class);
                 startActivity(intent);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,SeekBar.class);
+                Intent intent = new Intent(Page2Activity.this, SeekBarActivity.class);
                 startActivity(intent);
             }
         });
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,WebView.class);
+                Intent intent = new Intent(Page2Activity.this, WebViewActivity.class);
                 startActivity(intent);
             }
         });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Page2.this,RatingBar.class);
+                Intent intent = new Intent(Page2Activity.this, RatingBarActivity.class);
                 startActivity(intent);
             }
         });

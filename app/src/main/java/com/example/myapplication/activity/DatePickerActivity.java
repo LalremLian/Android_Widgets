@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.myapplication.R;
+
 import java.util.Calendar;
 
-public class DatePicker extends AppCompatActivity {
+public class DatePickerActivity extends AppCompatActivity {
 
     //Variables..
     //DatePicker picker;

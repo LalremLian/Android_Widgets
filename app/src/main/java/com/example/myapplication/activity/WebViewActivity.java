@@ -1,11 +1,13 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.webkit.WebViewClient;
 
-public class WebView extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class WebViewActivity extends AppCompatActivity {
 
     //Variables...
     android.webkit.WebView web;
@@ -18,7 +20,7 @@ public class WebView extends AppCompatActivity {
         //Hooks...
         web = findViewById(R.id.webview);
 
-        web.loadUrl("https://www.google.com/");
+        web.loadUrl("https://www.github.com/LalremLian/");
 
         // this will enable the javascript.
         web.getSettings().setJavaScriptEnabled(true);

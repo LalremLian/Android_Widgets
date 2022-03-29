@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
-public class ImageSwitcher extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class ImageSwitcherActivity extends AppCompatActivity {
 
     //Variables...
     Button nextButton;

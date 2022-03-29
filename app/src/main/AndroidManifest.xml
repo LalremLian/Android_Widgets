@@ -10,70 +10,70 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".DialogProgressActivity"
+            android:name=".activity.DialogProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".SharedPrefActivity"
+            android:name=".activity.SharedPrefActivity"
             android:exported="false" />
         <activity
-            android:name=".OptionMenu"
+            android:name=".activity.OptionMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".TabLayout"
+            android:name=".TabLayout.TabLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".TextWacher"
+            android:name=".activity.TextWatcherActivity"
             android:exported="false" />
         <activity
-            android:name=".SearchView"
+            android:name=".activity.SearchViewActivity"
             android:exported="false" />
         <activity
-            android:name=".ViewStub"
+            android:name=".activity.ViewStubActivity"
             android:exported="false" />
         <activity
-            android:name=".ImageSwitcher"
+            android:name=".activity.ImageSwitcherActivity"
             android:exported="false" />
         <activity
-            android:name=".HorizontalScrollView"
+            android:name=".activity.HorizontalScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".VerticalScrollView"
+            android:name=".activity.VerticalScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".ProgressBar"
+            android:name=".activity.ProgressBarActivity"
             android:exported="false" />
         <activity
-            android:name=".TimePicker"
+            android:name=".activity.TimePickerActivity"
             android:exported="false" />
         <activity
-            android:name=".DatePicker"
+            android:name=".activity.DatePickerActivity"
             android:exported="false" />
         <activity
-            android:name=".SeekBar"
+            android:name=".activity.SeekBarActivity"
             android:exported="false" />
         <activity
-            android:name=".WebView"
+            android:name=".activity.WebViewActivity"
             android:exported="false" />
         <activity
-            android:name=".RatingBar"
+            android:name=".activity.RatingBarActivity"
             android:exported="false" />
         <activity
-            android:name=".Page2"
+            android:name=".activity.Page2Activity"
             android:exported="false" />
         <activity
-            android:name=".RecycleView"
+            android:name=".activity.RecycleViewActivity"
             android:exported="false" />
         <activity
-            android:name=".listView"
+            android:name=".ListView.ListViewActivity"
             android:exported="false" />
         <activity
-            android:name=".autoComplete"
+            android:name=".activity.AutoCompleteActivity"
             android:exported="false" />
         <activity
-            android:name=".spinner"
+            android:name=".activity.SpinnerActivity"
             android:exported="false" />
         <activity
-            android:name=".radio_button"
+            android:name=".activity.RadioButtonActivity"
             android:exported="false" />
         <activity
             android:name=".second"

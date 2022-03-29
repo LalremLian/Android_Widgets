@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
-public class autoComplete extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class AutoCompleteActivity extends AppCompatActivity {
 
     //Variables...............
     AutoCompleteTextView act;

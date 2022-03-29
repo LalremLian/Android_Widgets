@@ -1,11 +1,13 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
-public class SeekBar extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class SeekBarActivity extends AppCompatActivity {
 
     //Variables..
     android.widget.SeekBar seekBar;

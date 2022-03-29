@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ProgressBar extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class ProgressBarActivity extends AppCompatActivity {
 
     //Variables.........
     int currentProgress = 0, progress;

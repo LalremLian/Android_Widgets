@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class listView extends AppCompatActivity {
+import com.example.myapplication.R;
+
+public class ListViewActivity extends AppCompatActivity {
 
 
     //Variables...

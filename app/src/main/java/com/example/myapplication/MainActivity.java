@@ -9,6 +9,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.myapplication.ListView.ListViewActivity;
+import com.example.myapplication.activity.AutoCompleteActivity;
+import com.example.myapplication.activity.DialogProgressActivity;
+import com.example.myapplication.activity.Page2Activity;
+import com.example.myapplication.activity.RadioButtonActivity;
+import com.example.myapplication.activity.RecycleViewActivity;
+import com.example.myapplication.activity.SpinnerActivity;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,49 +45,49 @@ public class MainActivity extends AppCompatActivity {
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,DialogProgressActivity.class);
+                Intent intent = new Intent(MainActivity.this, DialogProgressActivity.class);
                 startActivity(intent);
             }
         });
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Page2.class);
+                Intent intent = new Intent(MainActivity.this, Page2Activity.class);
                 startActivity(intent);
             }
         });
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,RecycleView.class);
+                Intent intent = new Intent(MainActivity.this, RecycleViewActivity.class);
                 startActivity(intent);
             }
         });
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,listView.class);
+                Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
                 startActivity(intent);
             }
         });
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,autoComplete.class);
+                Intent intent = new Intent(MainActivity.this, AutoCompleteActivity.class);
                 startActivity(intent);
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            Intent intent = new Intent(MainActivity.this,spinner.class);
+            Intent intent = new Intent(MainActivity.this, SpinnerActivity.class);
             startActivity(intent);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,radio_button.class);
+                Intent intent = new Intent(MainActivity.this, RadioButtonActivity.class);
                 startActivity(intent);
             }
         });
