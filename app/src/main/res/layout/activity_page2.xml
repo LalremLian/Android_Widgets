@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activity.Page2Activity">
 
-
     <TextView
         android:id="@+id/t"
         android:layout_width="wrap_content"
@@ -178,10 +177,10 @@
                 android:layout_marginLeft="5dp">
             </Button>
             <Button
-                android:id="@+id/optionMenuBTN"
+                android:id="@+id/PopUpMenuBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Option Menu"
+                android:text="PopUp Menu"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="20dp"
@@ -204,6 +203,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dialog Progress"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"/>
+            <Button
+                android:id="@+id/GoogleMapBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google Map"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="20dp"

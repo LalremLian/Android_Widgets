@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDN6Q4R9WgEmy5AoQ9qSCmgz005Uw6P_-c" />
+        <activity
+            android:name=".activity.GoogleMapActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.DialogProgressActivity"
             android:exported="false" />
@@ -16,7 +22,7 @@
             android:name=".activity.SharedPrefActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.OptionMenuActivity"
+            android:name=".activity.PopUpMenuActivity"
             android:exported="false" />
         <activity
             android:name=".TabLayout.TabLayoutActivity"
@@ -90,5 +96,7 @@
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 </manifest>
